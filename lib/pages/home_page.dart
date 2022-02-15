@@ -1,4 +1,7 @@
+// ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
+
+import '../widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -14,7 +17,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Text('Welcome to $days days of flutter by $name'),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
